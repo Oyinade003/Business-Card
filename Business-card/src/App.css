@@ -1,0 +1,91 @@
+body {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+}
+.container{
+  max-width: 100%;
+  background-color: #fff;
+  color: #fff;
+  overflow: hidden;
+  border: 2px solid  rgb(10, 37, 57);
+  background-image: url(./assets/blue-background.jpg);
+  background-repeat: no-repeat;
+  
+}
+.head{
+  height: 10%;
+}
+.head-text{
+  color: #fff;
+}
+.portrait{
+  height: 25em;
+  width: 100%;
+}
+.descript{
+  line-height: 15px;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 12%;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+.btns .whatsapp{
+  padding: 8px 12px;
+  margin-right: 20px;
+  border: solid #a55c98 1px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.btns .whatsapp a{
+  text-decoration: none;
+  color:  rgb(10, 37, 57);
+}
+.linkedIn{
+  background-color: rgb(175, 109, 27);
+  color: #fff;
+  padding: 8px 12px;
+  margin-right: 20px;
+  border-radius: 8px;
+
+}
+.linkedIn a{
+  color: #fff;
+  text-decoration: none;
+}
+.MainContent{
+  text-align: left;
+  width: 95%;
+  margin-left: 10%;
+  max-inline-size: 35ch;
+}
+.skills{
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  color: #000;
+  width: 40%;
+  margin-bottom: 20px;
+}
+.skills img{
+  width: 40px;
+}
+footer{
+  display: flex;
+  align-items: center;
+  background-color:  rgb(175, 109, 27);
+  color: #fff;
+  padding: 10px 70px;
+  width: 100%;
+  float: block-end;
+}
+footer i{
+  margin-left: 30px;
+}
