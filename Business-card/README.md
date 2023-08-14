@@ -1,8 +1,8 @@
-# React + Vite
+# Digital Business Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a digital business card created for business professional and students which contains links to social media pages and section For About information, Interests and Skills.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used:
+HTML: For adding content and organising pages and sections.
+CSS: For styling and visual effects.
+React: For arranging components and pages
