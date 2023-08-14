@@ -77,6 +77,10 @@ body {
 .skills img{
   width: 40px;
 }
+.skills a{
+  color: #fff;
+  background-color: #fff;
+}
 footer{
   display: flex;
   align-items: center;
