@@ -51,7 +51,7 @@ function App() {
 
       <div className='projects'>
         <h2> Projects I've Worked on </h2>
-        <a href='adoybalm.vercel.app'><img src={adoyimg} className='page' alt='adoy page' /></a>
+        <a href='https://adoybalm.vercel.app/'><img src={adoyimg} className='page' alt='adoy page' /></a>
         <img src={scissors} className='page2' alt='scissors page' />
         <img src={scissors2} className='page2' alt='scissors page' />
         <img src={scissors3} className='page2' alt='scissors page' />
