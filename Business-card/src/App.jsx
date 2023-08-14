@@ -8,6 +8,10 @@ import nodelogo from './assets/node.png'
 import figmalogo from './assets/figma.png'
 import gitlogo from './assets/git.png'
 import emaillogo from './assets/envelope.png'
+import scissors from './assets/page1.png'
+import scissors2 from './assets/page2.png'
+import scissors3 from './assets/page3.png'
+import adoyimg from './assets/adoypage.jpg'
 import './App.css'
 
 function App() {
@@ -15,7 +19,7 @@ function App() {
   return (
     <div className='container'>
       <div className='head'>
-        <p className='head-text'> HELLO THERE </p>
+        <p className='head-text'> HELLO THERE &#128075;</p>
       </div>
       <img src={portrait} className='portrait' alt='portrait'/>
       <div className='descript'>
@@ -29,9 +33,9 @@ function App() {
       </div>
       <div className='MainContent'>
       <h3> About </h3>
-      <p> I am a creative and result-driven junior software developer currently studying engineering and new frameworks in technology.</p>
+      <p> I am a creative and result-driven junior software developer currently studying engineering and new frameworks in technology. I believe the best way to develop my community is to be the best of myself and that has always kept me on the journey of developing myself aand my skills. </p>
       <h3> Interests </h3>
-      <p> My major interests are healthcare, entrepreneurship, self-development and commuity development.</p>
+      <p> My major interests are healthcare, entrepreneurship, self-development and commuity development. I love to explore new fields and have some experience accross various fields such as Healthcare, Engineering, Photography, Instrumentals, Sports (such as Table tennis, handball and Basketball). I love humanity and giving back to my community in scalable and consistent ways. </p>
       <h3> Skills </h3>
       <div className="skills">
       <img src={htmlogo} className='htmllogo' alt='html logo' />
@@ -43,6 +47,14 @@ function App() {
       <img src={figmalogo} className='figmalogo' alt='figma logo' />
       <img src={gitlogo} className='gitlogo' alt='git logo' />
       <img src={nodelogo} className='nodelogo' alt='node logo' />
+      </div>
+
+      <div className='projects'>
+        <h2> Projects I've Worked on </h2>
+        <a href='adoybalm.vercel.app'><img src={adoyimg} className='page' alt='adoy page' /></a>
+        <img src={scissors} className='page2' alt='scissors page' />
+        <img src={scissors2} className='page2' alt='scissors page' />
+        <img src={scissors3} className='page2' alt='scissors page' />
       </div>
       </div>
       <footer>
