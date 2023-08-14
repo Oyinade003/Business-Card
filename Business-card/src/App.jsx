@@ -35,7 +35,7 @@ function App() {
       <h3> About </h3>
       <p> I am a creative and result-driven junior software developer currently studying engineering and new frameworks in technology. I believe the best way to develop my community is to be the best of myself and that has always kept me on the journey of developing myself aand my skills. </p>
       <h3> Interests </h3>
-      <p> My major interests are healthcare, entrepreneurship, self-development and commuity development. I love to explore new fields and have some experience accross various fields such as Healthcare, Engineering, Photography, Instrumentals, Sports (such as Table tennis, handball and Basketball). I love humanity and giving back to my community in scalable and consistent ways. </p>
+      <p> My major interests are healthcare, entrepreneurship, self-development and commuity development. I love to explore new fields and I have some experience accross various fields such as Healthcare, Engineering, Photography, Instrumentals, Sports (such as Table tennis, handball and Basketball). I love humanity and giving back to my community in scalable and consistent ways. </p>
       <h3> Skills </h3>
       <div className="skills">
       <img src={htmlogo} className='htmllogo' alt='html logo' />
