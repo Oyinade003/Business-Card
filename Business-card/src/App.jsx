@@ -24,7 +24,7 @@ function App() {
       <p className='email'> Opedamola003@gmail.com </p>
       </div>
       <div className='btns'>
-        <button className='whatsapp' type='submit'><a href="https://wa.me/message/X4QQA4DVQQ6N1"> Whatsapp </a></button>
+        <button className='whatsapp' type='submit'><a href="https://wa.me/c/2347080580497"> Whatsapp </a></button>
         <button className='linkedIn' type='submit'><a href="https://www.linkedin.com/in/oyindamola-adewole-12bb13219"> LinkedIn </a></button>
       </div>
       <div className='MainContent'>
@@ -46,10 +46,10 @@ function App() {
       </div>
       </div>
       <footer>
-      <i className="fa fa-twitter-square" aria-hidden="true"></i>
-      <i className="fa fa-facebook-square" aria-hidden="true"></i>
-      <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-      <i className="fa fa-github-square" aria-hidden="true"></i>
+      <a href='https://twitter.com/AdoySBC'><i className="fa fa-twitter-square" aria-hidden="true"></i></a>
+      <a href='https://www.facebook.com/oyinda.adewole.7'><i className="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/oyindamola-adewole-12bb13219"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href='https://github.com/Oyinade003'><i className="fa fa-github-square" aria-hidden="true"></i></a>
       </footer>
     </div>
   )
